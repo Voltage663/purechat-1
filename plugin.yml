@@ -1,0 +1,39 @@
+name: PureChat
+main: _64FF00\PureChat\PureChat
+version: 1.0.0
+api: [3.0.0]
+load: POSTWORLD
+author: QuiltedTuba2798
+website: SOON!!!
+depend: [PurePerms]
+softdepend: [FactionsPro]
+commands:
+  setformat:
+      description: ""
+      permission: pchat.command.setformat
+  setnametag:
+    description: ""
+    permission: pchat.command.setnametag
+  setprefix:
+    description: ""
+    permission: pchat.command.setprefix
+  setsuffix:
+    description: ""
+    permission: pchat.command.setsuffix	
+permissions:
+  pchat:
+    description: ""
+    children:
+      pchat.command:
+        description: ""
+        children:
+          pchat.command.setformat:
+            description: ""
+          pchat.command.setnametag:
+            description: ""
+          pchat.command.setprefix:		
+            description: ""
+          pchat.command.setsuffix:		
+            description: ""			
+      pchat.coloredMessages:
+        description: ""	
